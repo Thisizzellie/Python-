@@ -7,7 +7,10 @@ Here are some key functions and features of the base64 module:
 
 Encoding Function: 
 
+1. 'base64.b64encode(data)': Encodes binary data to a base64-encoded bytes object.
+
 import base64
 data = b'Hello, World!'
 encoded_data = base64.b64encode(data)
 print(encoded_data)  # Output: b'SGVsbG8sIFdvcmxkIQ=='
+
