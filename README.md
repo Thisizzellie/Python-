@@ -1,4 +1,5 @@
-This is my personal notes on *Studying all about python*
+This is my notes on *Studying all about Python*
 
-**Python Best Practices -  **
+****Python Best Practices****
+
 
