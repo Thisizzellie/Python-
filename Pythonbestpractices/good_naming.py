@@ -1,9 +1,10 @@
 """
-Rename the following variables and function names
+Rename the following variables and function names to make them more pythonic. 
 """
 
 # 1 - Unclean Version 
 var = input("What is your first name? ")
+
 
 # - Revised Version
 # Descriptive name
@@ -14,9 +15,17 @@ First_name = input("What is your first name? ")
 
 #Polite and Complete Prompt: "Please enter your first name:" is more polite and specific than "What is your first name?". It provides a clear instruction to the user about what is expected. These small improvements make the code more professional and user-friendly.
 
+
 # 2 - Unclean Version 
 lastName = "Johnson"
 
+
+# - Revised Version
+#snake_case
+Last_Name = "Johnson"
+#Why
+#Proper Variable Naming: Using last_name instead of lastName follows the common Python convention of using snake_case for variable names. This enhances readability and consistency with other Python code.
+#Correct Assignment: Using the = operator correctly assigns the string "Johnson" to the variable last_name. In the original version, and is a logical operator and would cause a syntax error in this context.
 
 
 # 3 - Unclean Version 
