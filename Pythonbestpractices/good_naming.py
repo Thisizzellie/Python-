@@ -2,11 +2,11 @@
 Rename the following variables and function names to make them more Pythonic. 
 """
 
-## 1 - Unclean Version 
+# 1 - Unclean Version 
 var = input("What is your first name? ")
 
 # - Revised Version
-# Descriptive name
+# - Descriptive name
 First_name = input("What is your first name? ")
 #Why 
 #The revised version is better for the following reasons:
@@ -20,7 +20,7 @@ First_name = input("What is your first name? ")
 lastName = "Johnson"
 
 # - Revised Version
-#snake_case
+# - snake_case
 Last_Name = "Johnson"
 #Why
 #Proper Variable Naming: Using last_name instead of lastName follows the common Python convention of using snake_case for variable names. This enhances readability and consistency with other Python code.
@@ -37,19 +37,41 @@ Movie_Title = ....
 movie_title = "Pulp Fiction"
 
 
+
 # 4 - Unclean Version 
 l = ["Windows", "Linux", "MacOS"]
+
+# - Revised Version
+# - descriptive name
+operating_systems = ["Windows", "Linux", "MacOS"]
+
+
 
 # 5 - Unclean Version 
 actrs = ["Tom Hanks", "Brad Pitt", "Johnny Depp"]
 
 # - Revised Version 
+# -  no abbreviations
+actors = ["Tom Hanks", "Brad Pitt", "Johnny Depp"]
+
+
 
 # 6 - Unclean Version 
 list_of_fruits = ["apple", "banana", "kiwi", "orange"]
 
+# - Revised Version
+# type can be inferred, no need to add it to the variable name
+fruits = ["apple", "banana", "kiwi", "orange"]
+
+
+
 # 7 - Unclean Version 
 grades_dict = {"English": 90, "Biology": 80, "Math": 100}
+
+# - Revised Version
+#type can be inferred, no need to add it to the variable name
+grades = {"English": 90, "Biology": 80, "Math": 100}
+
 
 
 # 8 - Unclean Version 
@@ -58,6 +80,14 @@ def convTemp(celcius):
     fahrenheit = (celcius * 1.8) + 32
     return fahrenheit
 
+# - Revised Version
+# snake_case & no abbreviation
+def convert_temperature(celsius):
+    """Return temperature converted from Celsius to Fahrenheit"""
+    fahrenheit = (celsius * 1.8) + 32
+    return Fahrenheit
+
+
 
 # 9 - Unclean Version 
 class electricvehicle:
@@ -65,3 +95,12 @@ class electricvehicle:
     def __init__(self, brand, battery):
         self.brand = brand
         self.battery = battery
+
+# - Revised Version
+# PascalCase for classes
+class ElectricVehicle:
+     def __init__(self, brand, battery):
+        self.brand = brand
+        self.battery = battery
+
+
