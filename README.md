@@ -1,5 +1,5 @@
 # This is my notes on *Studying all about Python*
-#ffffff
+
 ## ****Python Best Practices**** 
 [[Good Naming Directory Link](https://github.com/Thisizzellie/Python-/blob/main/Pythonbestpractices/good_naming.py)]
 
@@ -8,11 +8,12 @@
 is a naming convention commonly used in programming, especially in languages like Python. It involves writing compound words or phrases where each word is in lowercase and separated by an underscore (_). This style improves readability by clearly separating each word in the variable name.
 
 Examples of Snake_case:
-first_name
-last_name
-total_cost
-user_id
-Why Use Snake_case:
++ first_name
++ last_name
++ total_cost
++ user_id
++ Why Use Snake_case:
+
 Readability: It makes it easier to read multi-word variable names.
 Consistency: Following a consistent naming convention throughout the codebase helps in maintaining and understanding the code.
 Convention: In Python, snake_case is the conventional way to name variables and functions, aligning with the language's style guide (PEP 8).
