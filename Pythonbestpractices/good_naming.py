@@ -14,39 +14,37 @@ First_name = input("What is your first name? ")
 
 #Polite and Complete Prompt: "Please enter your first name:" is more polite and specific than "What is your first name?". It provides a clear instruction to the user about what is expected. These small improvements make the code more professional and user-friendly.
 
-
-
-
-
-# 2 -
+# 2 - Unclean Version 
 lastName = "Johnson"
 
 
 
-# 3
+# 3 - Unclean Version 
 MovieTitle = "Pulp Fiction"
 Movie_Title = ....
-# 4
+
+
+# 4 - Unclean Version 
 l = ["Windows", "Linux", "MacOS"]
 
-# 5
+# 5 - Unclean Version 
 actrs = ["Tom Hanks", "Brad Pitt", "Johnny Depp"]
 
-# 6
+# 6 - Unclean Version 
 list_of_fruits = ["apple", "banana", "kiwi", "orange"]
 
-# 7
+# 7 - Unclean Version 
 grades_dict = {"English": 90, "Biology": 80, "Math": 100}
 
 
-# 8
+# 8 - Unclean Version 
 def convTemp(celcius):
     """Return temperature converted from Celsius to Fahrenheit"""
     fahrenheit = (celcius * 1.8) + 32
     return fahrenheit
 
 
-# 9
+# 9 - Unclean Version 
 class electricvehicle:
 
     def __init__(self, brand, battery):
