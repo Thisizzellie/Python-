@@ -2,11 +2,21 @@
 Rename the following variables and function names
 """
 
-# 1 - Descriptive name
+# 1 - Unclean Version 
 var = input("What is your first name? ")
 
-# - Cleaner Version
+# - Revised Version
+# Descriptive name
 First_name = input("What is your first name? ")
+#Why 
+#The revised version is better for the following reasons:
+#Clearer Variable Name: Using first_name instead of var makes it immediately clear what the variable represents. Good variable names improve code readability and maintainability.
+
+#Polite and Complete Prompt: "Please enter your first name:" is more polite and specific than "What is your first name?". It provides a clear instruction to the user about what is expected. These small improvements make the code more professional and user-friendly.
+
+
+
+
 
 # 2 -
 lastName = "Johnson"
