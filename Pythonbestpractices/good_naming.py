@@ -18,7 +18,7 @@ lastName = "Johnson"
 
 # - Revised Version
 # - snake_case
-Last_Name = "Johnson"
+Last_name = "Johnson"
 #Why
 #Proper Variable Naming: Using last_name instead of lastName follows the common Python convention of using snake_case for variable names. This enhances readability and consistency with other Python code.
 #Correct Assignment: Using the = operator correctly assigns the string "Johnson" to the variable last_name. In the original version, and is a logical operator and would cause a syntax error in this context.
