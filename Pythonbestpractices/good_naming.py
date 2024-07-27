@@ -49,14 +49,14 @@ actors = ["Tom Hanks", "Brad Pitt", "Johnny Depp"]
 list_of_fruits = ["apple", "banana", "kiwi", "orange"]
 
 # - Revised Version
-# type can be inferred, no need to add it to the variable name
+# type can be inferred, no need to add it to the variable name (we know its a list because of square bracker so no need to repeat)
 fruits = ["apple", "banana", "kiwi", "orange"]
 
 # 7 - Unclean Version 
 grades_dict = {"English": 90, "Biology": 80, "Math": 100}
 
 # - Revised Version
-#type can be inferred, no need to add it to the variable name
+#type can be inferred, no need to add it to the variable name. We know it's a dictionary, no need to add dict. 
 grades = {"English": 90, "Biology": 80, "Math": 100}
 
 # 8 - Unclean Version 
