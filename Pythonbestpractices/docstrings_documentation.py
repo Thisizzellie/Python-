@@ -6,13 +6,13 @@ Follow PEP 257: https://www.python.org/dev/peps/pep-0257/
 
 # 1
 def square(n):
-    """ Return the square of n."""
+    """Return the square of n."""
     return n * n
 
 
 # 2
 def count_vowels(word):
-    # Return the total number of vowels
+    """Return the total number of vowels."""
     number_of_vowels = 0
     for char in word.lower():
         if char in "aeiou":
@@ -22,10 +22,11 @@ def count_vowels(word):
 
 # 3
 class Dog:
-    'A class to represent a dog.'
+     """A class to represent a dog."""
 
     def __init__(self, name):
         self.name = name
 
     def bark(self):
+        """Make the dog bark."""
         print(f"{self.name} says whoof!")
