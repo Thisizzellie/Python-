@@ -6,6 +6,7 @@ Follow PEP 257: https://www.python.org/dev/peps/pep-0257/
 
 # 1
 def square(n):
+    """ Return the square of n."""
     return n * n
 
 
