@@ -1,4 +1,4 @@
-# This is my notes on *Studying all about Python*
+# This is my notes on *Studying all about Python* move this somewhere else 
 
 ## ****Python Best Practices**** 
 [[Good Naming Directory Link](https://github.com/Thisizzellie/Python-/blob/main/Pythonbestpractices/good_naming.py)]
